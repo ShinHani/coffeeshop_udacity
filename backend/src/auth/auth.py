@@ -6,9 +6,9 @@ from jose import jwt
 from urllib.request import urlopen
 
 
-AUTH0_DOMAIN = os.getenv('AUTH0_DOMAIN', 'hungnq45.us.auth0.com')
-ALGORITHMS = os.getenv('ALGORITHMS', ['RS256'])
-API_AUDIENCE = os.getenv('API_AUDIENCE', 'http://localhost:8080')
+AUTH0_DOMAIN = 'hungnq45.us.auth0.com'
+ALGORITHMS = ['RS256']
+API_AUDIENCE = 'http://localhost:8080'
 
 ## AuthError Exception
 '''
